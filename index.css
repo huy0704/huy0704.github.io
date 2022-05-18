@@ -1,0 +1,139 @@
+body {
+ margin: auto;
+ background-color: #cccc;
+ font-family: Comic Sans MS;
+}
+
+
+
+#may_tinh {
+ width: 320px;
+ height: 520px;
+ background: rgb(255, 0, 0);
+ background: linear-gradient(328deg, rgba(255, 0, 0, 1) 27%, rgba(5, 219, 255, 1) 58%, rgba(0, 212, 255, 1) 100%);
+ border: 2px solid #000000;
+
+ top: 20px;
+ margin: 0 auto;
+ position: relative;
+ border-radius: 6px;
+ box-shadow: 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+#ket_qua {
+ height: 120px;
+
+}
+
+#ket_qua_cu {
+ text-align: right;
+ height: 5px;
+ margin: 0 30px;
+ padding-top: 20px;
+ font-size: 15px;
+ color: #ffffff;
+}
+
+#xuat_ket_qua {
+ text-align: right;
+ height: 70px;
+ margin: 10px 20px;
+ font-size: 30px;
+ background-color: #c5d1cd;
+ border: 2px solid #000000;
+ box-shadow: 5px 5px rgba(73, 73, 73, 0.658);
+ border-radius: 6px;
+}
+
+#ban_phim {
+ height: 400px;
+}
+
+.he_thong,
+.con_so,
+.trong {
+ width: 50px;
+ height: 50px;
+ margin: 15px;
+ float: left;
+ border-radius: 50%;
+ border-width: 0;
+ font-weight: bold;
+ font-size: 16px;
+}
+
+.con_so,
+.trong {
+ background-color: #ffffff;
+ box-shadow: 4px 4px rgba(73, 73, 73, 0.658);
+
+}
+
+.con_so:hover,
+.trong:hover {
+ background-color: #000000;
+ color: white;
+
+}
+
+.he_thong,
+.con_so {
+ cursor: pointer;
+ box-shadow: 4px 4px rgba(73, 73, 73, 0.658);
+}
+
+.he_thong:hover {
+ color: white;
+ background-color: #000000;
+}
+
+.he_thong:active,
+.con_so:active {
+ font-size: 13px;
+}
+
+.he_thong:focus,
+.con_so:focus,
+.trong:focus {
+ outline: 0;
+}
+
+button:nth-child(1) {
+ font-size: 20px;
+ background-color: #ffbd06;
+}
+
+button:nth-child(2) {
+ font-size: 20px;
+ background-color: #ea07ff;
+}
+
+button:nth-child(3) {
+ font-size: 20px;
+ background-color: #758018;
+}
+
+button:nth-child(4) {
+ font-size: 20px;
+ background-color: #1cff07;
+}
+
+button:nth-child(8) {
+ font-size: 20px;
+ background-color: #853030;
+}
+
+button:nth-child(12) {
+ font-size: 20px;
+ background-color: #ffe600;
+}
+
+button:nth-child(16) {
+ font-size: 20px;
+ background-color: #177257;
+}
+
+button:nth-child(20) {
+ font-size: 20px;
+ background-color: #0400ff;
+}
